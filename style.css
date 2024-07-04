@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #181818;
+}
+
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #fff;
+}
+
+/*-------------------------------------*/
+
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 33px;
+}
+
+.header-logo {
+
+}
+
+.header-nav {
+    display: flex;
+}
+
+.header-nav__link {
+    margin-right: 31px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+.header-nav__link:last-child {
+    margin-right: 0;
+}
+
+.header-login {
+
+}
+
+.btn-login {
+    padding: 20px 50px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    background-color: inherit;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/*-------------------Section - main------------------------*/
+
+.main {
+
+}
+
+.main-wrap {
+
+}
+
+.main-content {
+    margin-top: 130px;
+}
+
+.main-content__title {
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 88px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.main-content__subtitle {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-bottom: 95px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Free {
+    margin-right: 35px;
+    background: rgb(68, 82, 254);
+    border: none;
+}
+
+
+/*-----------------------------------------------*/
+
+.features {
+    margin-top: 160px;
+}
+
+.features-wrap {
+
+}
+
+.features-content {
+
+}
+
+.features-content__title {
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 62px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-bottom: 27px;
+}
+
+.features-content__subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.features-subcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-subcontent__title {
+    margin-bottom: 25px;
+}
+
+.features-subcontent__subtitle {
+    margin-bottom: 45px;
+}
